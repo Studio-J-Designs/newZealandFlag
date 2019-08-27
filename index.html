@@ -4,45 +4,179 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title> New Zealand Flag </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style media="screen">
-      .nzFlag{
-        height: 400px;
-        width: 800px;
+
+      .flag{
+        position: relative;
+        height: 600px;
+        width: 1200px;
       }
 
-      #flag {
-        background-color: #002E62;
-        padding: 100px;
+      #japanFlag {
+        background-color: red;
       }
 
-      span {
-        margin: 130px;
+      #newZealandFlag {
+        background-color: #000089;
       }
 
-
-
-      .star{
-        font-size:75%;
-        color: #D01242;
-        margin-left: -54px;
+      .shape {
+        position: absolute;
+        right: 450px;
+        top:150px;
       }
 
-      .starOutline{
-        font-size:300%;
-        color: #FFFFFF;
+      .starContainer {
+        position: absolute;
+        right: 300px;
+      }
+
+      .star1 {
+        position: absolute;
+        top: 120px;
+      }
+
+      .star2 {
+        position: absolute;
+        top: 230px;
+        right: 58px;
+      }
+
+      .star3 {
+        position: absolute;
+        top: 220px;
+        left: 90px;
+      }
+      .star4 {
+        position: absolute;
+        top: 420px;
+      }
+
+      .jack {
+        position: absolute;
+
+        width: 600px;
       }
 
     </style>
   </head>
   <body>
-    <div class="nzFlag" id="flag" style="blue">
-      <div id="star" class="starOutline">&starf;
-        <span class="star" >&starf;</span>
+
+    <!-- New Zealand Flag -->
+
+    <div class="flag" id="newZealandFlag">
+
+      <img class="jack" src="assets/images/jack.png" alt="union jack">
+
+      <div class="starContainer">
+
+        <div class="star1Div">
+
+          <span class="fa-stack fa-lg star1">
+            <i class="fa fa-star fa-stack-2x fa-inverse aria-hidden="true""
+            style="
+            color: #D30214;
+            font-size:60px;
+            "></i>
+            <i class="fa fa-star-o fa-stack-2x aria-hidden="true""
+            style="
+            color: #FFFFFF;
+            font-size:60px;
+            "></i>
+          </span>
+
+        </div>
+
+        <div class="star2Div">
+
+          <span class="fa-stack fa-lg star2">
+            <i class="fa fa-star fa-stack-2x fa-inverse aria-hidden="true""
+            style="
+            color: #D30214;
+            font-size:60px;
+            "></i>
+            <i class="fa fa-star-o fa-stack-2x aria-hidden="true""
+            style="
+            color: #FFFFFF;
+            font-size:60px;
+            "></i>
+          </span>
+
+        <div class="star3Div">
+
+          <span class="fa-stack fa-lg star3">
+            <i class="fa fa-star fa-stack-2x fa-inverse aria-hidden="true""
+            style="
+            color: #D30214;
+            font-size:55px;
+            "></i>
+            <i class="fa fa-star-o fa-stack-2x aria-hidden="true""
+            style="
+            color: #FFFFFF;
+            font-size:55px;
+            "></i>
+          </span>
+
+        </div>
+
+        <div class="star4Div">
+
+          <span class="fa-stack fa-lg star4">
+            <i class="fa fa-star fa-stack-2x fa-inverse aria-hidden="true""
+            style="
+            color: #D30214;
+            font-size:80px;
+            "></i>
+            <i class="fa fa-star-o fa-stack-2x aria-hidden="true""
+            style="
+            color: #FFFFFF;
+            font-size:80px;
+            "></i>
+          </span>
+
+        </div>
+
       </div>
-      <span class="star" >&starf;</span>
-      <span class="star" >&starf;</span>
-      <span class="star" >&starf;</span>
+
+
     </div>
+
+  </div>
+
+
+  <div class="flag" id="japanFlag">
+
+
+
+    <div class="shapeContainer">
+
+      <span class="shape" style="
+        height: 300px;
+        width: 300px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        display: inline-block;
+        "></span>
+
+
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
 
